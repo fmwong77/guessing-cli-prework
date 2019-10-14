@@ -1,9 +1,9 @@
 # Code your solution here!
 require 'pry'
-def prompt_user
+# def prompt_user
   
-  binding.pry
-end
+#   binding.pry
+# end
 
 def get_user_input
   gets.chomp
