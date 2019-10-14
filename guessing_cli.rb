@@ -5,7 +5,7 @@ def run_guessing_game
   prompt_user()
   user_input = get_user_input()
   
-  if user_input == "exit"
+  if user_input.downcase == "exit"
     puts "Goodbye!"
   elsif user_input != random_number.to_s
     puts "/The computer guessed #{random_number}./"
