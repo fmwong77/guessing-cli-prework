@@ -13,6 +13,7 @@ def run_guessing_game
   else
     puts "Invalid"
   end
+  return "exit"
 end
 
 def prompt_user
