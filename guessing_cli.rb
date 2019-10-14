@@ -1,7 +1,7 @@
 # Code your solution here!
 require 'pry'
 def prompt_user
-  puts "Guess a number between 1 and 6."
+  
   binding.pry
 end
 
@@ -12,8 +12,8 @@ end
 def run_guessing_game
   
   random_number = rand(6) + 1
-  
-  prompt_user
+  puts "Guess a number between 1 and 6."
+  # prompt_user
   user_input = get_user_input
   
   if user_input.downcase == "exit"
