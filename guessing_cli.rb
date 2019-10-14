@@ -16,7 +16,7 @@ def run_guessing_game
 end
 
 def prompt_user
-  puts "Guess your own number between 1 and 6"
+  puts "Guess a number between 1 and 6."
 end
 
 def get_user_input
