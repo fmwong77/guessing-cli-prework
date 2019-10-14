@@ -2,7 +2,7 @@
 def run_guessing_game
   random_number = rand(6) + 1
   # prompt_user()
-  puts "Guess your own number between 1 and 6"
+  puts "Guess a number between 1 and 6."
   user_input = get_user_input()
   if user_input == "exit"
     puts "Goodbye!"
