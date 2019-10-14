@@ -4,7 +4,7 @@ def run_guessing_game
   random_number = rand(6) + 1
   prompt_user()
   user_input = get_user_input()
-  binding.pry
+  
   if user_input == "exit"
     puts "Goodbye!"
   elsif user_input != random_number.to_s
@@ -22,4 +22,5 @@ end
 
 def get_user_input
   gets.chomp
+  binding.pry
 end
